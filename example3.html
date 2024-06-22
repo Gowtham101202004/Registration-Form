@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="external3.css"/>
+        <title>Registration</title>
+        <script src="./information.js"></script>
+    </head>
+    <body>
+        <form   >
+           <div class="a">
+               <h2 style="margin-left: 25px;">Registration</h2>
+               <div class="b">
+                   <label><b>Full Name</b>
+                       <br>
+                       <input type="text" class="in" id="name" placeholder="Enter your name"/>
+                   </label>
+                   <label><b>Username</b>
+                       <br>
+                       <input type="text" class="in" id="username" placeholder="Enter your username"/>
+                   </label>
+               </div>
+               <div class="b">
+                   <label><b>Email</b>
+                       <br>
+                       <input type="email" class="in" id="email" placeholder="Enter your email"/>
+                   </label>
+                   <label><b>Phone Number</b>
+                       <br>
+                       <input type="text" class="in" id="phonenumber" placeholder="Enter your number"/>
+                   </label>
+               </div>
+               <div class="b">
+                   <label><b>Password</b>
+                       <br>
+                       <input type="password" class="in" id="password" placeholder="Enter your password"/>
+                   </label>
+                   <label><b>Confirm Password</b>
+                       <br>
+                       <input type="password" class="in" id="confirmpassword" placeholder="Confirm your number"/>
+                   </label>
+               </div>
+               <div class="b">
+                   <label><b>Gender</b>
+                       <br><br>    
+                       <div>
+                           <input type="radio" value="Male" name="gender" checked/>Male 
+                           <input type="radio" class="d" value="Female" name="gender" />Female
+                           <input type="radio" class="d" value="Prefer not to say" name="gender"/>Prefer not to say
+                       </div>
+                   </label>
+               </div>
+               <div style="margin-top:35px;">
+                <button type="submit" class="c" name="register" onclick="details(event)">Register</button>
+               </div>
+               <br>
+           </div>
+        </form>
+    </body>
+</html>
